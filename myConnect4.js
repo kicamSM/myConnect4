@@ -89,7 +89,7 @@ function handleClick(evt) {
   // } else {
   //   piece.backgroundColor('blue')
   // }
-  }
+  
 
   // get next spot in column (if none, ignore click)
   const y = findSpotForCol(x);
@@ -111,7 +111,7 @@ function handleClick(evt) {
 
   // switch players
   // TODO: switch currPlayer 1 <-> 2
-
+}
 
 /** checkForWin: check board cell-by-cell for "does a win start here?" */
 
